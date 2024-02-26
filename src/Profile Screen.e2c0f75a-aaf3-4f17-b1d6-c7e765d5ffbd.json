@@ -70,10 +70,10 @@
                 "Height": 52,
                 "Width": 72,
                 "Visible": true,
-                "X": 300,
-                "Y": 240,
-                "RelativeX": 300,
-                "RelativeY": 240,
+                "X": 303,
+                "Y": 305,
+                "RelativeX": 303,
+                "RelativeY": 305,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -104,7 +104,7 @@
                 "Disabled": false,
                 "ParentId": "e2c0f75a-aaf3-4f17-b1d6-c7e765d5ffbd",
                 "position": "absolute",
-                "edgeOffsets": 240
+                "edgeOffsets": 305
             },
             "children": [],
             "id": "57a80efe-c5a2-449a-8972-468d287b6245",
@@ -738,8 +738,8 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 70,
-                "Width": 339,
+                "Height": 72,
+                "Width": 341,
                 "Visible": false,
                 "X": 18,
                 "Y": 207,
@@ -1367,7 +1367,7 @@
             "properties": {
                 "Height": 70,
                 "Width": 339,
-                "Visible": false,
+                "Visible": true,
                 "X": 18,
                 "Y": 207,
                 "RelativeX": 18,
@@ -1383,7 +1383,7 @@
                     "position": "absolute",
                     "left": "22%",
                     "top": "44.07796101949025%",
-                    "display": "none"
+                    "display": "flex"
                 },
                 "resizeMode": "contain"
             },
@@ -1797,8 +1797,8 @@
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(126, 211, 33, 1)",
-                "Height": 32,
-                "Width": 31,
+                "Height": 34,
+                "Width": 33,
                 "Visible": true,
                 "X": 188,
                 "Y": 157,

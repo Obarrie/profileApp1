@@ -4,7 +4,23 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Rewarded Video",
+                            "translatedName": "AdMob Rewarded Video",
+                            "isApi": true,
+                            "reactType": "AdMobRewarded",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-9079807363469123~2601027815",
+                                "AdUnitID_iOS": "",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "c2a46f3f-42c4-4e6c-b18b-65c8906b752b",
+                            "thunkableVersion": 446,
+                            "name": "AdMob_Rewarded_Video1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +37,8 @@
                     "createdAt": "2024-02-06T20:47:37.267Z",
                     "updatedAt": "2024-02-06T20:47:37.267Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b3478026ccec3fb9e87199/projects/65c276b996f68d85366dfc55/assets/65c29ae9e3a453c26faf077e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240212%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240212T144758Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4115bec4ecb72a7a720f0c14d47500466e1b11d2abc386c0604cbe1aaad42eb68283574ad739d9642166f488edd943a03f561ced258b839c3b9d710ef6f11e843bd41a9877da0386c0a437787c297323ff6f30935f24edbf7a8dd5fa56e751228fb7e9e6ed86a0a98827ff6fbd2a3686c243c68f7c9617c3dbcb19dc857cc57fa76c752867ea2be98baa349f2ac1f09a81a1d8a84eeed23b434331ce000031fa88b46e0988c2e18f5af9bca8c120ba05c6b7b4f3e15e828b78ec11d6f6b95f0c4e3485558eee4d9a1974fb84ee61010ccdfdcf8bb09039de157fd390b66c3fbff13e16d7930e9f7f7e625c0a73ae3670a4a5500035c2de5e3c7206731a55acb5",
-                    "signedUrlExpirationTime": 1707922078864
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b3478026ccec3fb9e87199/projects/65c276b996f68d85366dfc55/assets/65c29ae9e3a453c26faf077e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T205032Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=564457ae43ab62686572ff30ed36ca89d595a4b38fb9b88e27639a16854b040395fba0e1a78fe8f460d44726fe81eb0c4684076c90aee54c896c31b5c520739cd5c006d5c38123e7aa33630d50813530ef014bf4a9f1cab90e4050e1ff98dadaaeef46ac722cce09b3b42568911306fb33f5e99cc01a45a7c90e77d50f2173f3555d2410b70c8c3a0b92acea048529d8a94fffe7bd6fe7218bbe8c4c7f99386eb62b99278282d0e8e1ed95f0d1e0275618b95705cfa92af86015c1acf8c31de716b15a797739a62335b5840ab71d9637e412b605c97f0f79bdebde5b4f795d5540d475d04cc9cfe9dcf08d5d50f7d96df328d249c7b3c8bb867dceca8e35c531",
+                    "signedUrlExpirationTime": 1709153432080
                 },
                 "65c29b2d94cef48846da0c86": {
                     "externalStorageType": "GCS",
@@ -37,8 +53,8 @@
                     "createdAt": "2024-02-06T20:48:46.032Z",
                     "updatedAt": "2024-02-06T20:48:46.032Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b3478026ccec3fb9e87199/projects/65c276b996f68d85366dfc55/assets/65c29b2d94cef48846da0c86?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240212%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240212T144758Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1c4ee544eba062662073293396200ea903092a7b90beab69a8c0c60b2290082c7551ea8e04ac4fbb8092c02db4ad2f54667bf3468d656529338cd4010fdd0794894cff7eacf9e6047a40c9651a37addba810e45e7fed9528906290d7bf1a93ce6ffa4d532eaaa0ca3b0d9b650d0ff67968b6c644aa3b07bb086b7fd0e94bf6950aff3f8f3034c01a3b87509eb00ba03666b250f8b58887882192233edde50b2150870af905119063ca7f32360e0d53302b4fa3a4ec631fdc832a150f855d140f67c5d7b8c66e73e4a2f0f3255a939112f4da4676376db7a978c9df320937694018818fccd1be53c48252131109e73f0772e49560bdec16540dbe88b77d359802",
-                    "signedUrlExpirationTime": 1707922078867
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b3478026ccec3fb9e87199/projects/65c276b996f68d85366dfc55/assets/65c29b2d94cef48846da0c86?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T205032Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=59e3a95fa357222fb4925764b3eb7f61fabc130a6d3358d6fc7feccf5c0ba207e69fb387b0f4cb7e532845c217966d5817d050316cad4be0a6058e71a2825895e4e45b34ce9f68f8abbc4c662a822ff59180b371a5a466129fdc9011992f27bbabe3a90317efe04f6ad44472546a94a1b4b8327998ad51d69f0a3d627b3a8cac7647e384a3ee3028b656db394aff89f4ed789fd69819b86fe70d20b4e3d4ee81b47a37a3f4882ba2180322d477b073178654150fa2b9eaebdb2bb5b3f654ec0b7497977f9a581dcc7548d765ca1bb4378e2d5d2a2148961859305bcbfaf385bcb140a41fa09ed9c4f389eb969479b954619f083c6b0ac0bf541a7f31ad98992a",
+                    "signedUrlExpirationTime": 1709153432085
                 }
             },
             "backendUpgradeVersion": 24,
@@ -202,7 +218,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -211,7 +227,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "1",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
